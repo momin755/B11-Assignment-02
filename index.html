@@ -1,12 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kids School</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
-</body>
+    <!-- Font Awesome CDN Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Custom CSS Link -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <section class="navbar d-flex">
+            <div class="logo d-flex">
+                <img src="assets/logo.png" alt="Kids School Logo" /> <span class="logo-text">SCHOOL</span>
+            </div>
+            <ul class="nav-links d-flex">
+              <li class="nav-item"><a href="" id="nav-1" class="nav-link">Home</a></li>
+              <li class="nav-item"><a href="" id="nav-2" class="nav-link">About</a></li>
+              <li class="nav-item"><a href="" id="nav-3" class="nav-link">Facilities</a></li>
+              <li class="nav-item"><a href="" id="nav-4" class="nav-link">Admission</a></li>
+            </ul>
+            <div class="contact">
+                <button class="btn">Contact</button>
+            </div>
+            <div class="hamberger-menu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+          </section>
+      </div>
+      <hr class="d-none bbottom">
+      <!-- Navbar Section -->
+       <section class="banner  d-flex">
+        <div class="banner-text-container">
+            <h2 class="banner-title">
+                <span class="empowering">Empowering</span>
+                <span class="students">students from small age </span>
+                <span class="towards">towards vision</span>
+            </h2>
+            <p class="banner-description">
+                With the courage, Confidence, Creativity and Compassion to make their Unique Contribution in a Diverse and Dynamic World.
+            </p>
+            <button class="btn" id="secondary-btn">Enroll Now</button>
+        </div>
+        <div class="banner-img">
+            <img src="assets/hero-kids.png" alt="">
+        </div>
+       </section>
+    </header>
+    <main>
+        <!-- Curriculum Section -->
+         <section class="curriculum">
+            <h2 class="curriculum-heading">
+                Standard Curriculum
+            </h2>
+
+            <div class="curriculum-card-container">
+                <div class="curriculum-card" id="curriculum-card-one">
+                    <img src="assets/kinder.png" alt="Math Icon">
+                    <h3 class="card-title">Kinder (3-6) Years</h3>
+                    <p class="card-description">
+                        Cum sociis natoque penatibus et magnis
+                        dis parturient montes, nascetur ridiculus
+                        mu sdis parturient
+                    </p>
+                    <button class="curriculum-btn">Read More</button>
+                </div>
+                <div class="curriculum-card" id="curriculum-card-two">
+                    <img src="assets/elementary.png" alt="Math Icon">
+                    <h3 class="card-title">Elementary School</h3>
+                    <p class="card-description">
+                        Cum sociis natoque penatibus et magnis
+                        dis parturient montes, nascetur ridiculus
+                        mu sdis parturient
+                    </p>
+                    <button class="curriculum-btn" id="btn-2">Read More</button>
+                </div>
+                <div class="curriculum-card" id="curriculum-card-three">
+                    <img src="assets/middle.png" alt="Math Icon">
+                    <h3 class="card-title">Middle (10-16) Years</h3>
+                    <p class="card-description">
+                        Cum sociis natoque penatibus et magnis
+                        dis parturient montes, nascetur ridiculus
+                        mu sdis parturient
+                    </p>
+                    <button class="curriculum-btn" id="btn-3">Read More</button>
+                </div>
+            </div>
+            <div class="next-previous">
+                <button class="prev-btn"><i class="fa-solid fa-chevron-left"></i></button>
+                <button class="next-btn"><i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+         </section>
+         <!-- Stories Section -->
+          <section class="stories d-none" >
+            <div class="stories-container">
+                <h2 class="stories-heading">Our Stories</h2>
+            </div>
+            <div class="stories-cards-container">
+
+            </div>
+            <div class="stories-btn">
+                <button class="btn" id="secondary-btn">view All</button>
+            </div>
+          </section>
+    </main>
+    <footer class="d-none">
+        <div class="footer-container d-flex">
+            <div class="footer-header">
+                <img src="assets/logo.png" alt="Kids School Logo" /> <span>Kids Education</span>
+                <p>Pizza ipsum dolor meat lovers buffalo. Deep dolor roll melted bacon Bianca pan bacon pineapple Aussie. Mayo rib sauce Hawaiian meatball.</p>
+            </div>
+            <div class="footer-links">
+                <h3>About School</h3>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Facilities</a></li>
+                    <li><a href="">Admission</a></li>
+                </ul>
+            </div>
+            <div class="footer-social-links">
+                <h3>Social Media</h3>
+                <ul>
+                    <li><a href="#"><img src="assets/fb.png" alt=""></a></li>
+                    <li><a href="#"><img src="assets/dribble.png" alt=""></a></li>
+                    <li><a href="#"><img src="assets/twitter.png" alt=""></a></li>
+                    <li><a href="#"><img src="assets/google+.png" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+
+    </footer>
+  </body>
 </html>
