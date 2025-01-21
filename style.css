@@ -510,4 +510,18 @@ padding: 20px;
     top: 49%;
     left: 14%;
 }
+/* Footer Part */
+footer{
+  padding: 60px 0;
+}
+.footer-container{
+  flex-direction: column;
+} 
+.footer-header{
+  width: 100%;
+  margin-bottom: 32px;
+}
+.footer-social-links{
+  margin-top: 32px;
+}
 }
