@@ -330,7 +330,7 @@ padding: 10px 15px ;
 }
 .image-card-btn{
   position: absolute;
-  top: 44.5%;
+  top: 45%;
   left: 8%;
 }
 .image-card-btn button{
@@ -496,7 +496,7 @@ font-size: 1.7rem;
     display: none;
   }
   .stories-card h3{
-font-size: 0.7rem;
+font-size: 0.6rem;
 font-weight: 700;
 line-height: 17.12px;
 padding: 20px;
@@ -507,8 +507,10 @@ padding: 20px;
   }
   .image-card-btn {
     position: absolute;
-    top: 49%;
-    left: 14%;
+    top:47.5%;
+    left: 12%;
+    margin: 0;
+    padding: 0;
 }
 /* Footer Part */
 footer{
